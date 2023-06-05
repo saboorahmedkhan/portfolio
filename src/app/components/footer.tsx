@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className='bg-black'>
       <footer className="text-white bg-black body-font outline outline-6  outline-green-600">
-        <div className="container m-3 p-1 mx-auto flex items-center sm:flex-row flex-col">
+        <div className="container  p-1 mx-auto flex items-center sm:flex-row flex-col">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
             <Image src={require("../../../public/assets/pictures/logo.jpeg")}
               width={100}
